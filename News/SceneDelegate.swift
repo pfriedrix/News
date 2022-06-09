@@ -1,9 +1,4 @@
-//
-//  SceneDelegate.swift
-//  News
-//
-//  Created by Danylo Krysevych on 08.06.2022.
-//
+
 
 import UIKit
 

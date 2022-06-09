@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1362BF2851156D00889C3A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1362BE2851156D00889C3A /* WebViewController.swift */; };
+		BA95A6CF285163670009532A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BA95A6CE285163670009532A /* RealmSwift */; };
+		BA95A6D9285254EF0009532A /* ArticleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA95A6D8285254EF0009532A /* ArticleRepository.swift */; };
+		BA95A6DB285257AE0009532A /* FavotiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA95A6DA285257AE0009532A /* FavotiesViewController.swift */; };
+		BA95A6DD285276800009532A /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA95A6DC285276800009532A /* FiltersViewController.swift */; };
 		BABA20582850CBF30045CB94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA20572850CBF30045CB94 /* AppDelegate.swift */; };
 		BABA205A2850CBF30045CB94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA20592850CBF30045CB94 /* SceneDelegate.swift */; };
-		BABA205C2850CBF30045CB94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA205B2850CBF30045CB94 /* ViewController.swift */; };
 		BABA205F2850CBF30045CB94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABA205D2850CBF30045CB94 /* Main.storyboard */; };
 		BABA20612850CBF60045CB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABA20602850CBF60045CB94 /* Assets.xcassets */; };
 		BABA20642850CBF60045CB94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABA20622850CBF60045CB94 /* LaunchScreen.storyboard */; };
+		BABA20702850D2830045CB94 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA206F2850D2830045CB94 /* FeedViewController.swift */; };
+		BABA20732850D5770045CB94 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA20722850D5770045CB94 /* Response.swift */; };
+		BABA20762850D82A0045CB94 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA20752850D82A0045CB94 /* Article.swift */; };
+		BABA20782850D8700045CB94 /* NewsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA20772850D8700045CB94 /* NewsApi.swift */; };
+		BABA207A2850E88A0045CB94 /* articles.json in Resources */ = {isa = PBXBuildFile; fileRef = BABA20792850E88A0045CB94 /* articles.json */; };
+		BABA207E2850EB7F0045CB94 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA207C2850EB7F0045CB94 /* ArticleTableViewCell.swift */; };
+		BABA207F2850EB7F0045CB94 /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABA207D2850EB7F0045CB94 /* ArticleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA1362BE2851156D00889C3A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		BA95A6D8285254EF0009532A /* ArticleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRepository.swift; sourceTree = "<group>"; };
+		BA95A6DA285257AE0009532A /* FavotiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavotiesViewController.swift; sourceTree = "<group>"; };
+		BA95A6DC285276800009532A /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
 		BABA20542850CBF30045CB94 /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABA20572850CBF30045CB94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BABA20592850CBF30045CB94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BABA205B2850CBF30045CB94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BABA205E2850CBF30045CB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BABA20602850CBF60045CB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BABA20632850CBF60045CB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BABA20652850CBF60045CB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABA206F2850D2830045CB94 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BABA20722850D5770045CB94 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		BABA20752850D82A0045CB94 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		BABA20772850D8700045CB94 /* NewsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApi.swift; sourceTree = "<group>"; };
+		BABA20792850E88A0045CB94 /* articles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = articles.json; sourceTree = "<group>"; };
+		BABA207C2850EB7F0045CB94 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		BABA207D2850EB7F0045CB94 /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA95A6CF285163670009532A /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +78,57 @@
 		BABA20562850CBF30045CB94 /* News */ = {
 			isa = PBXGroup;
 			children = (
+				BABA207B2850EB620045CB94 /* Views */,
+				BABA20742850D7D20045CB94 /* Services */,
+				BABA20712850D54A0045CB94 /* Models */,
+				BABA206E2850D2520045CB94 /* Controllers */,
 				BABA20572850CBF30045CB94 /* AppDelegate.swift */,
 				BABA20592850CBF30045CB94 /* SceneDelegate.swift */,
-				BABA205B2850CBF30045CB94 /* ViewController.swift */,
 				BABA205D2850CBF30045CB94 /* Main.storyboard */,
 				BABA20602850CBF60045CB94 /* Assets.xcassets */,
 				BABA20622850CBF60045CB94 /* LaunchScreen.storyboard */,
 				BABA20652850CBF60045CB94 /* Info.plist */,
+				BABA20792850E88A0045CB94 /* articles.json */,
 			);
 			path = News;
+			sourceTree = "<group>";
+		};
+		BABA206E2850D2520045CB94 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BABA206F2850D2830045CB94 /* FeedViewController.swift */,
+				BA1362BE2851156D00889C3A /* WebViewController.swift */,
+				BA95A6DA285257AE0009532A /* FavotiesViewController.swift */,
+				BA95A6DC285276800009532A /* FiltersViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BABA20712850D54A0045CB94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BABA20722850D5770045CB94 /* Response.swift */,
+				BABA20752850D82A0045CB94 /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BABA20742850D7D20045CB94 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BABA20772850D8700045CB94 /* NewsApi.swift */,
+				BA95A6D8285254EF0009532A /* ArticleRepository.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BABA207B2850EB620045CB94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BABA207C2850EB7F0045CB94 /* ArticleTableViewCell.swift */,
+				BABA207D2850EB7F0045CB94 /* ArticleTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +147,9 @@
 			dependencies = (
 			);
 			name = News;
+			packageProductDependencies = (
+				BA95A6CE285163670009532A /* RealmSwift */,
+			);
 			productName = News;
 			productReference = BABA20542850CBF30045CB94 /* News.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +178,9 @@
 				Base,
 			);
 			mainGroup = BABA204B2850CBF30045CB94;
+			packageReferences = (
+				BA95A6CD285163670009532A /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = BABA20552850CBF30045CB94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +195,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BABA207F2850EB7F0045CB94 /* ArticleTableViewCell.xib in Resources */,
 				BABA20642850CBF60045CB94 /* LaunchScreen.storyboard in Resources */,
 				BABA20612850CBF60045CB94 /* Assets.xcassets in Resources */,
+				BABA207A2850E88A0045CB94 /* articles.json in Resources */,
 				BABA205F2850CBF30045CB94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +210,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABA205C2850CBF30045CB94 /* ViewController.swift in Sources */,
+				BABA20732850D5770045CB94 /* Response.swift in Sources */,
+				BABA20782850D8700045CB94 /* NewsApi.swift in Sources */,
 				BABA20582850CBF30045CB94 /* AppDelegate.swift in Sources */,
+				BABA20702850D2830045CB94 /* FeedViewController.swift in Sources */,
 				BABA205A2850CBF30045CB94 /* SceneDelegate.swift in Sources */,
+				BABA207E2850EB7F0045CB94 /* ArticleTableViewCell.swift in Sources */,
+				BABA20762850D82A0045CB94 /* Article.swift in Sources */,
+				BA95A6DB285257AE0009532A /* FavotiesViewController.swift in Sources */,
+				BA95A6D9285254EF0009532A /* ArticleRepository.swift in Sources */,
+				BA95A6DD285276800009532A /* FiltersViewController.swift in Sources */,
+				BA1362BF2851156D00889C3A /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +373,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +386,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +403,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +416,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +442,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA95A6CD285163670009532A /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.19.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA95A6CE285163670009532A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA95A6CD285163670009532A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BABA204C2850CBF30045CB94 /* Project object */;
 }

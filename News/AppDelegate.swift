@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  News
-//
-//  Created by Danylo Krysevych on 08.06.2022.
-//
+
 
 import UIKit
 
@@ -17,7 +12,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-    // MARK: UISceneSession Lifecycle
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return .portrait
+    }
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="articleCell" rowHeight="165" id="KGk-i7-Jjw" customClass="ArticleTableViewCell" customModule="News" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="640" height="165"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="640" height="165"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zV7-ui-YSe">
+                        <rect key="frame" x="0.0" y="0.0" width="640" height="126"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kzu-7R-WKU">
+                                <rect key="frame" x="0.0" y="0.0" width="532" height="126"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="f7Y-Tl-N2h">
+                                        <rect key="frame" x="20" y="0.0" width="512" height="15"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="CNN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Cj-cm-sVE">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="mTe-1v-Qmu"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                <color key="textColor" systemColor="systemGrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Benjamin Brown and Eliza Mackintosh, CNN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2SN-tQ-oGq">
+                                                <rect key="frame" x="50" y="0.0" width="462" height="15"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                <color key="textColor" systemColor="systemGrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="3xG-8s-fzW"/>
+                                        </constraints>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One person dead, five with life-threatening injuries after car driven into crowd in Berlin - CNN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9r-0u-X8i">
+                                        <rect key="frame" x="20" y="23" width="512" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="J4G-cq-NQH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCc-Vu-g6W">
+                                        <rect key="frame" x="20" y="51" width="492" height="55"/>
+                                        <string key="text">A car drove into a crowd of people in a busy shopping district in western Berlin on Wednesday, killing at least one person and leaving five with life-threatening injuries, a fire department spokesperson told CNN.</string>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="GCc-Vu-g6W" firstAttribute="top" secondItem="I9r-0u-X8i" secondAttribute="bottom" constant="8" symbolic="YES" id="1zF-9j-8m6"/>
+                                    <constraint firstItem="I9r-0u-X8i" firstAttribute="leading" secondItem="kzu-7R-WKU" secondAttribute="leading" constant="20" symbolic="YES" id="Ecg-55-bC9"/>
+                                    <constraint firstItem="I9r-0u-X8i" firstAttribute="top" secondItem="f7Y-Tl-N2h" secondAttribute="bottom" constant="8" symbolic="YES" id="FTe-gT-0PM"/>
+                                    <constraint firstItem="GCc-Vu-g6W" firstAttribute="leading" secondItem="kzu-7R-WKU" secondAttribute="leading" constant="20" symbolic="YES" id="HE1-RG-Mjc"/>
+                                    <constraint firstAttribute="trailing" secondItem="GCc-Vu-g6W" secondAttribute="trailing" constant="20" symbolic="YES" id="lI4-kS-Iab"/>
+                                    <constraint firstAttribute="bottom" secondItem="GCc-Vu-g6W" secondAttribute="bottom" constant="20" symbolic="YES" id="stn-Rg-2hI"/>
+                                    <constraint firstItem="f7Y-Tl-N2h" firstAttribute="leading" secondItem="kzu-7R-WKU" secondAttribute="leading" constant="20" symbolic="YES" id="tnT-Wx-Xv3"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nvU-Pf-3pI">
+                                <rect key="frame" x="540" y="0.0" width="100" height="126"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M21-Tx-OIM">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="101"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="96j-bJ-ofl"/>
+                                            <constraint firstAttribute="height" constant="100" id="bVZ-nv-ulT"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mq2-d4-ZNc">
+                                        <rect key="frame" x="75" y="101" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="D4H-ph-ooI"/>
+                                            <constraint firstAttribute="width" constant="25" id="SgD-i1-8Ul"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="bookmark" catalog="system"/>
+                                        <connections>
+                                            <action selector="save:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="nTg-Jt-EYj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="mq2-d4-ZNc" secondAttribute="trailing" id="16H-Jo-PxR"/>
+                                    <constraint firstAttribute="width" constant="100" id="uCR-Wv-NuL"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="nvU-Pf-3pI" firstAttribute="leading" secondItem="kzu-7R-WKU" secondAttribute="trailing" constant="8" symbolic="YES" id="YfU-SU-Ymc"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="zV7-ui-YSe" secondAttribute="bottom" id="Mrc-e1-Vfb"/>
+                    <constraint firstItem="zV7-ui-YSe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ueq-5D-67y"/>
+                    <constraint firstAttribute="trailing" secondItem="zV7-ui-YSe" secondAttribute="trailing" id="Xjz-4E-8QG"/>
+                    <constraint firstItem="zV7-ui-YSe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="iLU-49-eoj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="articleImage" destination="M21-Tx-OIM" id="EWi-mg-6Li"/>
+                <outlet property="authorLabel" destination="2SN-tQ-oGq" id="BIb-QU-h8o"/>
+                <outlet property="discLabel" destination="GCc-Vu-g6W" id="rZu-9q-uGm"/>
+                <outlet property="saveButton" destination="mq2-d4-ZNc" id="6rh-RE-Pwo"/>
+                <outlet property="sourceLabel" destination="9Cj-cm-sVE" id="ByX-cE-37T"/>
+                <outlet property="titleLabel" destination="I9r-0u-X8i" id="7GR-ae-oAw"/>
+            </connections>
+            <point key="canvasLocation" x="115.94202898550725" y="96.763392857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bookmark" catalog="system" width="112" height="128"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
